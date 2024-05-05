@@ -24,6 +24,12 @@ class LoginFragment : Fragment() {
     private lateinit var binding: FragmentLoginBinding
     private lateinit var repository: LoginRepository
     private lateinit var viewModel: LoginViewModel
+    
+    //email:fq@mailinator.com
+    //password:Test@123
+   //user_device_id:1
+   //fcm_token:1
+    
     private val userDeviceId = "1"
     private val fcmToken = "1"
 
